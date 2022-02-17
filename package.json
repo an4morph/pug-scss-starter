@@ -1,0 +1,34 @@
+{
+  "name": "akkurat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve .",
+    "dev": "webpack --watch",
+    "build": "webpack",
+    "prod": "serve dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.4",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "node-sass": "^7.0.1",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "ie 10"
+  ]
+}
