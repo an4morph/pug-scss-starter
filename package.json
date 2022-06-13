@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "serve .",
-    "dev": "webpack --watch",
+    "start": "webpack-dev-server",
     "build": "webpack",
     "prod": "serve dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "an4morph",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.4",
@@ -24,7 +23,8 @@
     "pug-loader": "^2.4.0",
     "sass-loader": "^12.6.0",
     "webpack": "^5.69.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
   },
   "browserslist": [
     "last 1 version",

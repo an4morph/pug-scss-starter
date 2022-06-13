@@ -7,10 +7,20 @@ module.exports = {
   entry: [
     './src/scripts/index.js',
     './src/styles/index.scss',
+    './src/pug/index.pug',
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js'
+  },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    compress: true,
+    port: 9000,
+    hot: true,
+    open: true,
   },
   mode: 'development',
   module: {
